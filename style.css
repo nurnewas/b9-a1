@@ -185,3 +185,170 @@ fill: lightgray 50% / cover no-repeat;
 }
 
 /* Coming Soon Section */
+.coming-soon-section{
+    display: flex;
+}
+
+.css-txt{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500px;
+    width: 207px;
+    height: 29px;
+    padding-top: 100px;
+    text-align: left;
+}
+.css-cmgsn{
+    color: #070211;
+    text-align: left;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    width: 328px;
+    width: 60pxS;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.css-dis{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    height: 128px;
+    width: 398px;
+    padding-top: 22px;
+    text-align: left;
+}
+
+.css-img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.onfo-discription{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    height: 58px;
+    width: 276px;
+    padding-bottom: 10px;
+}
+
+.info-img{
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+}
+/*    Bonus    */
+.Holidays{
+    margin-top: 120px;
+}
+.holi-para{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 263px;
+    height: 29px;
+    text-align: center;
+}
+.holi-head{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 15px;
+    height: 91px;
+    width: 667px;
+}
+.holi-holi{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 15px;
+    height: 21px;
+    width: 667px;
+}
+.holi-dis{
+    margin-top: 28px;
+    width: 1068px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 130px;
+
+}
+
+/* Portfolio Section */
+.portfolio{
+    margin-top: 120px;
+
+}
+.port-text{
+    color: #F00;   
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    /* height: 29px;
+    width: 192px; */
+}
+
+.port-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.port-head{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    /* height: 56px;
+    width: 60px; */
+}
+.port-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* height: 64px;
+    width: 896px; */
+}
+.first-port-img{
+    display: flex;
+}
+.second-port-img{
+    display: flex;
+}
