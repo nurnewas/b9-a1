@@ -34,4 +34,109 @@
     background-position: center;
     padding:50px 140;
 }
-   
+   /* First main div */
+
+.fm-offer{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    padding-top: 130px;
+    font-weight: 700;
+}
+
+.fm-tittle{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top:48px
+}
+
+.fm-discription{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+padding-top:10px ;
+padding-bottom: 48px;
+}
+
+.fm-img{
+    width: 802px;
+height: 500px;
+flex-shrink: 0;
+fill: lightgray 50% / cover no-repeat;
+}
+.backgroundimg{
+
+}
+.backgroundimg{
+    background-image: url('resources/Vectorrr.png');
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    padding:50px 140;
+    width: 1320px;
+    height: 600px;
+
+}
+.bk-tittle{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    width: 642px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+.backgroundimg{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.divleft{
+    width: 320px;
+    padding: 67px 130px 67px 10px;
+}
+
+.bk-pragraph{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 10px 90px 126px;
+}
+
+
+.bk-btn{
+    color: #F00;
+    padding: 5px 10px;
+    border: double solid black;
+    border-color: #fff;
+    margin-left: 152px;
+    cursor: pointer;
+    transition: 0.9s;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+.bk-btn:hover{
+    background-color: aliceblue;
+    box-shadow: 0px 5px 5px 5px red;
+    color: #070211;
+}
+.bk-btn:focus{
+    outline: none;
+}
