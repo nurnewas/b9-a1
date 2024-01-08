@@ -1,0 +1,37 @@
+ *{
+    max-width: 1320px;
+    margin: 5px auto;
+    font-family: 'Merriweather', serif;
+}
+
+/* Banner Style */
+.banner-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 177px;  
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.banner-tittle{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 177px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px ;
+    width: 620px;
+}
+.banner-bkimg{
+    background-image: url('resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    padding:50px 140;
+}
+   
