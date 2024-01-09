@@ -258,7 +258,7 @@ fill: lightgray 50% / cover no-repeat;
 .holidays{
     margin-top: 120px;
     text-align: center;
-    height: 986.07px;
+    /* height: 986.07px; */
     width: 1320px;
     
 }
@@ -300,11 +300,44 @@ fill: lightgray 50% / cover no-repeat;
 
 }
 
-.hollyday-box{
-    position: relative;
-    padding-left: 215px;
-    text-align: bottom left;
-}
+.holiday-section {
+    width: 1320px;
+    font-family: Inter;
+    text-align: center;
+    margin-bottom: 120px;}
+    
+.holiday-imgs {
+        width: 1320px;
+        background-image: url('resources/Rectangle\ 2.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        display: flex;
+    }
+    
+    .holiday-img{
+        position: relative;
+    }
+    
+    .holiday-img-1 {
+        width: 684px;
+        height: 662px;
+    
+    }
+    
+    .holiday-img-2 {
+        width: 206.841px;
+        height: 206.841px;
+        top: 160px;
+        z-index: 1;
+        left: 115px;
+    }
+    
+    
+    .holiday-img-3 {
+        width: 429px;
+        height: 433px;
+    }
+    
 
 /* Portfolio Section */
 .portfolio{
