@@ -351,16 +351,20 @@ fill: lightgray 50% / cover no-repeat;
     cursor: pointer;
     transition: 1s;
 }
-.hover-effect:hover{
-    transform: scale(1.1s);
-    z-index: 2;
-    border-radius: 3px;
 
+.fst-img{
+    transition: 1.1s;
 }
-.first-port-img:hover{
-    transform: scale(1.1s);
+.fst-img:hover{
+    transform: scale(1.3);
     z-index: 2;
-    border-radius: 3px;
+}
+.snd-img{
+    transition: 1.1s;
+}
+.snd-img:hover{
+    transform: scale(1.3);
+    z-index: 2;
 }
 .second-port-img{
     display: flex;
